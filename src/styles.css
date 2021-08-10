@@ -1,0 +1,73 @@
+html {
+  background-color: #000;
+  color: #1db954;
+}
+
+body {
+  text-align: center;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 70%;
+  margin: 0 auto;
+}
+
+button {
+  border-radius: 20px;
+  background-color: #000;
+  color: #1db954;
+}
+
+.btn-genre {
+  margin: 1rem 1rem;
+  padding: 0.5rem 1.2rem;
+  font-size: 1.2rem;
+}
+
+table {
+  width: 60%;
+  margin: 2rem auto;
+  padding: 0.5rem 0.5rem;
+  border: 3px solid gray;
+  border-radius: 10px;
+}
+
+td {
+  width: 50%;
+  /* border: 2px solid red; */
+}
+
+.td-img {
+  text-align: right;
+}
+
+.td-song-name {
+  text-align: left;
+  font-size: 1.5rem;
+}
+
+.td-artist-name {
+  text-align: left;
+  font-size: 1rem;
+}
+
+.td-artist-year {
+  text-align: left;
+  font-size: 0.8rem;
+}
+
+img {
+  width: 6rem;
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 12px;
+  }
+
+  table {
+    width: 100%;
+  }
+}
